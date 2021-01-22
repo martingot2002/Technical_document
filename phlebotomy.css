@@ -1,0 +1,115 @@
+
+#navbar 
+{
+    grid-area: navbar;
+    margin-top: 100px;
+    position: fixed;
+    
+}
+
+#navbar a
+{
+display: block;
+border: 2px solid black;
+padding: 5px 60px 5px 5px;
+margin: 10px 0px;
+text-decoration: none;
+color: black;
+font-size: 1.2em;
+
+}
+
+#revisions
+{
+    grid-area: revisions;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+#main-doc
+{
+    grid-area: main-doc;
+    border: px solid black;
+    margin: 5px 0px;
+
+}
+
+header{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+code{
+    background: lightgrey;
+    display: block;
+}
+#table{
+    
+    grid-area: table;
+    margin-left: 200px;
+
+}
+
+table , th, td
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td{
+    padding: 10px;
+}
+
+.company{
+    color: blue;
+}
+
+.main-section{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+#main-body
+{
+    display: grid;
+    width: 100%;
+    margin:0px auto;
+    grid-template-columns: minmax(200px, auto) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "navbar table"
+    "navbar main-doc"
+    "navbar revisions"
+    "navbar footer ";
+}
+
+@media screen and (max-width: 700px){
+    #main-body {
+
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+           "table "
+            "navbar" 
+            "main-doc"
+            "revisions"
+            "footer";
+    }
+    #navbar {
+        position: inherit;
+        margin-top: 5px;
+
+    }
+    #table{
+        margin-left: 0px;
+    }
+
+        
+}
+
