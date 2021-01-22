@@ -83,7 +83,7 @@ th, td{
     grid-template-columns: minmax(200px, auto) 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-    "navbar table"
+    "table table"
     "navbar main-doc"
     "navbar revisions"
     "navbar footer ";
