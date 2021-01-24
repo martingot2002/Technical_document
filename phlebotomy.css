@@ -51,6 +51,7 @@ code{
     
     grid-area: table;
     margin-left: 200px;
+    margin-bottom: 10px;
 
 }
 
@@ -64,8 +65,24 @@ th, td{
     padding: 10px;
 }
 
-.company{
+
+
+
+#align{
+    text-align: left;
+}
+
+#company{
     color: blue;
+    width: 25%;
+}
+
+#date-size{
+    width: 25%;
+}
+
+#title{
+    width: 50%;
 }
 
 .main-section{
@@ -75,6 +92,24 @@ th, td{
 
 }
 
+#rev{
+    width: 12.25%;
+}
+#change{
+    width: 75%;
+}
+
+#date{
+    width: 12.25%;
+}
+
+#approved{
+    width: 50%;
+}
+
+#sig{
+    width: 37.75;
+}
 #main-body
 {
     display: grid;
@@ -88,6 +123,7 @@ th, td{
     "navbar revisions"
     "navbar footer ";
 }
+
 
 @media screen and (max-width: 700px){
     #main-body {
