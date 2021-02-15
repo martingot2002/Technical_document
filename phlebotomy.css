@@ -85,6 +85,10 @@ th, td{
     width: 50%;
 }
 
+.title-style{
+    font-size: 1.5em;
+}
+
 .main-section{
     border: 1px solid black;
     padding: 5px;
