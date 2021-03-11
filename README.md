@@ -1,6 +1,6 @@
 This is a Technical document project for Phlebotomy.
 
-It makes up the fourth part of my coding portfolio.
+It marks up the fourth project of my coding portfolio.
 
 You can see this project live at the following URL:
 
